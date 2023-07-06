@@ -1,0 +1,16 @@
+PODS:
+  - BlulabsDemoPod (0.1.0)
+
+DEPENDENCIES:
+  - BlulabsDemoPod (from `../`)
+
+EXTERNAL SOURCES:
+  BlulabsDemoPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlulabsDemoPod: 0f874df7580be4129b7ee166ffda607d4961e28b
+
+PODFILE CHECKSUM: 38ffe98ef4cfa94e98bf354c1912d7fbdc7312ec
+
+COCOAPODS: 1.12.1
