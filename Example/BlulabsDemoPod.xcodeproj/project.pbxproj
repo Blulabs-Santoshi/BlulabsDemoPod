@@ -45,7 +45,6 @@
 		A149DC092FFA468AC5E70887 /* Pods_BlulabsDemoPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlulabsDemoPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BFE7D11EA26BAEEB70D94E /* Pods-BlulabsDemoPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlulabsDemoPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-BlulabsDemoPod_Tests/Pods-BlulabsDemoPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A93AB1F10BF07E33B22101C5 /* Pods-BlulabsDemoPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlulabsDemoPod_Example.release.xcconfig"; path = "Target Support Files/Pods-BlulabsDemoPod_Example/Pods-BlulabsDemoPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA270F412A56DE02000A55F1 /* BlulabsDemoPod */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BlulabsDemoPod; path = ../../../BlulabsDemoPod; sourceTree = "<group>"; };
 		EAD68E9795B9F3495E841136 /* BlulabsDemoPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlulabsDemoPod.podspec; path = ../BlulabsDemoPod.podspec; sourceTree = "<group>"; };
 		F97E1775641B1B15A89A5A66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +72,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				EA270F412A56DE02000A55F1 /* BlulabsDemoPod */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for BlulabsDemoPod */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -214,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W23QHMBFZM;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W23QHMBFZM;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -480,6 +480,7 @@
 			baseConfigurationReference = 8E9F6F4E4F9780C53BA6FE9B /* Pods-BlulabsDemoPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W23QHMBFZM;
 				INFOPLIST_FILE = BlulabsDemoPod/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -496,6 +497,7 @@
 			baseConfigurationReference = A93AB1F10BF07E33B22101C5 /* Pods-BlulabsDemoPod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W23QHMBFZM;
 				INFOPLIST_FILE = BlulabsDemoPod/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -511,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A50D7C1133519641B95477 /* Pods-BlulabsDemoPod_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = W23QHMBFZM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -534,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4BFE7D11EA26BAEEB70D94E /* Pods-BlulabsDemoPod_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = W23QHMBFZM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
